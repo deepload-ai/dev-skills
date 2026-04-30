@@ -1,0 +1,30 @@
+{
+  "name": "refactor2docs",
+  "version": "2.0.0",
+  "description": "Use when analyzing large codebases to generate comprehensive documentation for refactoring projects",
+  "author": "Claude Code Agent",
+  "scope": "project",
+  "language": "zh-CN",
+  "tags": [
+    "code-analysis",
+    "documentation",
+    "refactoring",
+    "architecture",
+    "reverse-engineering",
+    "knowledge-graph",
+    "mermaid"
+  ],
+  "triggers": [
+    "分析代码",
+    "生成文档",
+    "重构文档",
+    "代码转文档",
+    "文档化项目",
+    "重构指南",
+    "模块设计",
+    "架构文档"
+  ],
+  "entry": "SKILL.md",
+  "category": "development",
+  "priority": 1
+}

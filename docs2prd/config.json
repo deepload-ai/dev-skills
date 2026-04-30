@@ -1,0 +1,29 @@
+{
+  "name": "docs2prd",
+  "version": "1.1.0",
+  "description": "Use when converting technical articles or documents into IEEE 830 compliant Product Requirement Documents (PRD)",
+  "author": "Hermes Agent",
+  "scope": "user",
+  "language": "zh-CN",
+  "tags": [
+    "prd",
+    "ieee-830",
+    "c4-architecture",
+    "technical-writing",
+    "knowledge-ingestion",
+    "requirements",
+    "documentation"
+  ],
+  "triggers": [
+    "转成PRD",
+    "转PRD",
+    "生成PRD",
+    "文档转需求",
+    "文章转需求",
+    "PRD文档",
+    "需求规格说明书"
+  ],
+  "entry": "SKILL.md",
+  "category": "productivity",
+  "priority": 1
+}
