@@ -1,9 +1,9 @@
 {
   "name": "docs2prd",
-  "version": "1.1.0",
-  "description": "Use when converting technical articles or documents into IEEE 830 compliant Product Requirement Documents (PRD)",
-  "author": "Hermes Agent",
-  "scope": "user",
+  "version": "2.0.0",
+  "description": "Use when converting specified articles, documents, PDFs, webpages, notes, or pasted text into clear source-traceable PRDs or software requirements specifications.",
+  "author": "Codex Agent",
+  "scope": "project",
   "language": "zh-CN",
   "tags": [
     "prd",
@@ -12,7 +12,11 @@
     "technical-writing",
     "knowledge-ingestion",
     "requirements",
-    "documentation"
+    "documentation",
+    "source-traceability",
+    "requirements-extraction",
+    "prd-generation",
+    "acceptance-criteria"
   ],
   "triggers": [
     "转成PRD",
@@ -21,7 +25,13 @@
     "文档转需求",
     "文章转需求",
     "PRD文档",
-    "需求规格说明书"
+    "需求规格说明书",
+    "文档提炼PRD",
+    "文档转PRD",
+    "文章提炼需求",
+    "需求提炼",
+    "软件需求规格说明书",
+    "验收标准"
   ],
   "entry": "SKILL.md",
   "category": "productivity",
