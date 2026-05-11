@@ -52,6 +52,36 @@ docs2prd/
 
 ---
 
+### 3. skill-check
+
+**版本**: v1.0
+
+**用途**: 技能质量审查与迭代改进
+
+**触发场景**: 技能审查、技能审计、技能修复、技能改进、路由冲突检查
+
+**核心能力**:
+- 三种模式：check（只读审查）、fix（审查+修复）、audit（多技能对比）
+- 八维度评分体系
+- 元数据验证脚本（validate-metadata.py）
+- 结构验证脚本（validate-structure.py）
+- 渐进式披露（SKILL.md 精简，详情移入 references/）
+
+**Skill 文件**:
+```
+skill-check/
+├── SKILL.md          # 技能主文档
+├── references/      # 参考文档
+│   ├── review-framework.md
+│   ├── improvement-playbook.md
+│   └── report-template.md
+└── scripts/         # 验证脚本
+    ├── validate-metadata.py
+    └── validate-structure.py
+```
+
+---
+
 ## 安装
 
 ### 自动安装脚本
@@ -84,7 +114,8 @@ dev-skills/
 ├── install.sh             # Linux/macOS 安装脚本
 ├── install.ps1           # Windows 安装脚本
 ├── refactor2docs/        # 代码转文档重构技能 v2.0
-└── docs2prd/            # 文档转PRD技能 v2.0
+├── docs2prd/            # 文档转PRD技能 v2.0
+└── skill-check/          # 技能质量审查技能 v1.0
 ```
 
 ---
